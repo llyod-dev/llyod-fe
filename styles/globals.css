@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/gotham?styles=17581,17583,17585,17588");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: Gotham Ultra;
+  /* src: url('/fonts/Gotham/Gotham-Black.otf'); */
+  src: url("/fonts/Gotham/gotham-ultra.ttf");
+}
+.heading {
+  font-family: Gotham Ultra;
+}
+@font-face {
+  font-family: Gotham;
+  src: url("/fonts/Gotham/Gotham-Bold.otf");
+}
+
+.feature {
+  font-family: Gotham;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #e1e1e2 #e3e3e7;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 3px;
+  height: 10px;
+}
+
+/* *::-webkit-scrollbar-track {
+  background: #1a1d33;
+} */
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d6d6d4;
+  border-radius: 20px;
+  border: 3px;
+}
+
+.scrollBar::-webkit-scrollbar {
+  display: none;
+}
